@@ -7,7 +7,7 @@ My custom homebrew taps and patches. For now it provides a custom mutt-kz tap.
 
 Install with `brew tap`:
 
-	brew tap fbernitt/patches
+	brew tap segfault/homebrew-patches
 	brew install muttkz
 
 ### License
