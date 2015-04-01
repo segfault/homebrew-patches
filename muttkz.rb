@@ -2,12 +2,12 @@ require 'formula'
 
 class Muttkz < Formula
   homepage 'https://kzak.redcrew.org/doku.php?id=mutt:start'
-  url 'ftp://redcrew.org/pub/mutt-kz/v1.5.22.1/mutt-kz-1.5.22.1.tar.xz'
-  sha1 '9829952945c14644c33e65761f2fd1769cd1fca2'
-  revision 1
+  url 'ftp://redcrew.org/pub/mutt-kz/v1.5.23.1/mutt-kz-1.5.23.1-rc1.tar.xz'
+  sha1 'a2ac1d76708a9c5e1546b406110ce180ffcb738b'
+  revision 2
 
   head do
-    url 'http://dev.mutt.org/hg/mutt#default', :using => :hg
+    url 'https://github.com/karelzak/mutt-kz', :using => :git
 
     resource 'html' do
       url 'http://dev.mutt.org/doc/manual.html', :using => :nounzip
